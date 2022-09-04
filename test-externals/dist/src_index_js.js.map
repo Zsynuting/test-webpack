@@ -1,1 +1,0 @@
-{"version":3,"file":"src_index_js.js","mappings":";;;;;;;;;;;;AAAsB;;AAEtB;AACA,yCAAyC,uDAAW,GAAG,MAAM","sources":["webpack://test-externals/./src/index.js"],"sourcesContent":["import _ from 'lodash'\n\nconsole.log('%c 🍔', 'color:#ffdd4d')\ndocument.body.innerText = JSON.stringify(_.cloneDeep({ a: 1 }))\n"],"names":[],"sourceRoot":""}
