@@ -28,7 +28,9 @@ module.exports = {
     lodash: '_',
   },
   optimization: {
-    splitChunks: false,
+    splitChunks: {
+      chunks: 'all',
+    },
   },
   plugins,
   devServer: { port: 3333, hot: true, open: true },
